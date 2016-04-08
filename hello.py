@@ -4,6 +4,7 @@ from wtforms.validators import Required
 from flask import Flask, render_template,session,redirect,url_for,flash
 from flask.ext.bootstrap import Bootstrap
 
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hard to guess string'
 bootstrap=Bootstrap(app)
